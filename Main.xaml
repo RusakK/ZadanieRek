@@ -69,7 +69,7 @@
           <av:Size x:Key="ShapeSize">216,51</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" Hidden="False" sap:VirtualizedContainerService.HintSize="430,165" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" Url="https://www.fakenamegenerator.com/">
+      <ui:OpenBrowser UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" Hidden="False" sap:VirtualizedContainerService.HintSize="216,51" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Private="False" Url="https://www.fakenamegenerator.com/">
         <ui:OpenBrowser.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -248,57 +248,56 @@
                           </ui:GetValue.Value>
                         </ui:GetValue>
                       </Sequence>
-                      <Sequence DisplayName="Enter data to MyCRM" sap:VirtualizedContainerService.HintSize="959,2488" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <Sequence DisplayName="Enter data to MyCRM" sap:VirtualizedContainerService.HintSize="432,66" sap2010:WorkflowViewState.IdRef="Sequence_8">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                             <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'First Name'" EmptyField="True" sap:VirtualizedContainerService.HintSize="921,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="False" Text="[fullName.Split({&quot; &quot;C})(0).ToString]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'First Name'" EmptyField="True" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="False" Text="[fullName.Split({&quot; &quot;C})(0).ToString]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="60fded99ba794a0578e2d2f9567d6b5e" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='tabControl1' /&gt;&lt;wnd ctrlname='tabPagePeople' /&gt;&lt;wnd ctrlname='groupBox5' /&gt;&lt;wnd ctrlname='textBoxPeopleFirstName' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'Last Name'" EmptyField="True" sap:VirtualizedContainerService.HintSize="921,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="False" Text="[fullName.Split({&quot; &quot;C})(1).ToString]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'Last Name'" EmptyField="True" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_2" SendWindowMessages="False" SimulateType="False" Text="[fullName.Split({&quot; &quot;C})(1).ToString]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="990ba4604a0b9260ce5932c67bc3bde3" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='tabControl1' /&gt;&lt;wnd ctrlname='tabPagePeople' /&gt;&lt;wnd ctrlname='groupBox5' /&gt;&lt;wnd ctrlname='textBoxPeopleLastName' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <Sequence sap:VirtualizedContainerService.HintSize="921,1352" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                        <Sequence DisplayName="Choose 'Sex'" sap:VirtualizedContainerService.HintSize="330,66" sap2010:WorkflowViewState.IdRef="Sequence_12">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Image" sap:VirtualizedContainerService.HintSize="883,1260" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <Sequence DisplayName="Image" sap:VirtualizedContainerService.HintSize="883,957" sap2010:WorkflowViewState.IdRef="Sequence_11">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Generatea Page'" sap:VirtualizedContainerService.HintSize="845,1168" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="6c3213045607d8b8edc2a215769cd7e8" Selector="&lt;html app='chrome.exe' title='Generate a Random Name*' /&gt;&#xA;">
+                            <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'Generatea Page'" sap:VirtualizedContainerService.HintSize="845,865" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="6c3213045607d8b8edc2a215769cd7e8" Selector="&lt;html app='chrome.exe' title='Generate a Random Name*' /&gt;&#xA;">
                               <ui:WindowScope.Body>
                                 <ActivityAction x:TypeArguments="x:Object">
                                   <ActivityAction.Argument>
                                     <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                                   </ActivityAction.Argument>
-                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="815,1022" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="815,719" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                     <Sequence.Variables>
                                       <Variable x:TypeArguments="ui:UiElement" Name="element" />
                                       <Variable x:TypeArguments="x:String" Name="getElement" />
                                       <Variable x:TypeArguments="x:String" Default="Male" Name="male" />
-                                      <Variable x:TypeArguments="x:String" Default="Female" Name="female" />
                                     </Sequence.Variables>
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="777,61" sap2010:WorkflowViewState.IdRef="WriteLine_5" Text="[&quot;Looking image + elemtn: &quot; + getElement]" />
                                     <ui:WaitUiElementAppear DisplayName="Find Element 'IMG'" FoundElement="[element]" sap:VirtualizedContainerService.HintSize="777,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_2" WaitActive="False" WaitVisible="False">
                                       <ui:WaitUiElementAppear.Target>
-                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="f55662fa9659746bbd78ed449917394c" Selector="&lt;html app='chrome.exe' title='Generate a Random*' /&gt;&#xD;&#xA;&lt;webctrl parentid='details' tag='IMG' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;img' /&gt;&#xD;&#xA;" WaitForReady="INTERACTIVE" />
+                                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="f55662fa9659746bbd78ed449917394c" Selector="&lt;html app='chrome.exe' title='Generate a Random*' /&gt;&#xA;&lt;webctrl parentid='details' tag='IMG' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;img' /&gt;&#xA;" WaitForReady="INTERACTIVE" />
                                       </ui:WaitUiElementAppear.Target>
                                     </ui:WaitUiElementAppear>
                                     <ui:GetAttribute ContinueOnError="{x:Null}" Attribute="aaname" DisplayName="Get Attribute" sap:VirtualizedContainerService.HintSize="777,96" sap2010:WorkflowViewState.IdRef="GetAttribute_1">
@@ -309,16 +308,14 @@
                                         <ui:Target ClippingRegion="{x:Null}" Selector="{x:Null}" TimeoutMS="{x:Null}" Element="[element]" WaitForReady="INTERACTIVE" />
                                       </ui:GetAttribute.Target>
                                     </ui:GetAttribute>
-                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="777,61" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[getElement]" />
-                                    <If Condition="[getElement.Equals(male)]" sap:VirtualizedContainerService.HintSize="777,446" sap2010:WorkflowViewState.IdRef="If_2">
+                                    <If Condition="[getElement.Equals(male)]" sap:VirtualizedContainerService.HintSize="777,345" sap2010:WorkflowViewState.IdRef="If_2">
                                       <If.Then>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="368,299" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="368,198" sap2010:WorkflowViewState.IdRef="Sequence_25">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="330,61" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="Jest male" />
                                           <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.BUTTON.a...'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                             <ui:Click.CursorPosition>
                                               <ui:CursorPosition Position="Center">
@@ -337,13 +334,12 @@
                                         </Sequence>
                                       </If.Then>
                                       <If.Else>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="368,299" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="368,198" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="330,61" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="Jest female" />
                                           <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.BUTTON.a...'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
                                             <ui:Click.CursorPosition>
                                               <ui:CursorPosition Position="Center">
@@ -368,12 +364,12 @@
                             </ui:WindowScope>
                           </Sequence>
                         </Sequence>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" EmptyField="False" sap:VirtualizedContainerService.HintSize="921,134" sap2010:WorkflowViewState.IdRef="TypeInto_6" SendWindowMessages="False" SimulateType="False" Text="[fullAddress.Split({&quot;,&quot;c})(0).ToString]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'Address Line1.'" EmptyField="True" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_6" SendWindowMessages="False" SimulateType="False" Text="[fullAddress.Split({&quot;,&quot;c})(0).ToString]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="04c2c5a47866a2f5eb2dfbd2eb449693" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='tabControl1' /&gt;&lt;wnd ctrlname='tabPagePeople' /&gt;&lt;wnd ctrlname='groupBox1' /&gt;&lt;wnd ctrlname='textBoxPeopleAddLine1' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'WindowsForms10.EDIT.app...'" EmptyField="False" sap:VirtualizedContainerService.HintSize="921,134" sap2010:WorkflowViewState.IdRef="TypeInto_7" SendWindowMessages="False" SimulateType="False" Text="[fullAddress.Split({&quot;,&quot;c})(1).ToString]">
+                        <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type Into 'Address Line2'" EmptyField="True" sap:VirtualizedContainerService.HintSize="330,134" sap2010:WorkflowViewState.IdRef="TypeInto_7" SendWindowMessages="False" SimulateType="False" Text="[fullAddress.Split({&quot;,&quot;c})(1).ToString]">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="6e4832f948758bb7807814158cd128bd" Selector="&lt;wnd app='mycrm.exe' ctrlname='Form1' /&gt;&lt;wnd ctrlname='tabControl1' /&gt;&lt;wnd ctrlname='tabPagePeople' /&gt;&lt;wnd ctrlname='groupBox1' /&gt;&lt;wnd ctrlname='textBoxPeopleAddLine2' /&gt;" WaitForReady="INTERACTIVE" />
                           </ui:TypeInto.Target>
@@ -440,7 +436,7 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="Click Image 'explorer.exe'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
+        <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="Double Click Image" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False">
           <ui:ClickImage.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -452,10 +448,10 @@
             </ui:CursorPosition>
           </ui:ClickImage.CursorPosition>
           <ui:ClickImage.Image>
-            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="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" />
+            <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAAbCAYAAACJISRoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALHSURBVEhLxdZfSFNRHAfwS/Swl+rFZfSYEARGoJj0RykKZz2EPRhGT0VFbARJFFYPQQ/mSKiQqCcNrCR0kpqWTZbbGritWYjpzFkaZTmTKZqmWb/6/ux3uo6ZPl0fPnDu4dzzPf/u2TTrySME0zRG3ycH2QwR/ZyYZaMzs/wMaPNj6huTZ/g1PUQDn/pZNPpVGRsf53Za8VUbAToPhtws4AuS1/OKtb3uUWWP/1/96NSkCm/1NtPdB+WsubZGlavra5YhZGJihFxNXoaGT+ub2UOHl2oe+RjKjU4fiw0PchCgw6YmBwv3d6rB3r5jnwu5cfMcAdbPWRdg6Nzv8jCnM6RGD23BMMPLsva19Q1qT1CvD8eeGRNyr+o6wfvIZ2pp6GDo3NXSyl54fKqM8GCgnelDqqsq+X3Q11dU3OdnFeL2dM6bCfYlkb7elwwvf/k4wBCiP9pvQu0M/eAzMCYExw8wPZny2+6wIp2K2Mg7Nj0TU3U4RQgCDKT8Vhnr8Pt56bVINEKAEQik658TwYbisAA6w94Bynq5GakGheBu0t9P8ZYSuJC2J89I0zTS6h67CbDx8i1gj+SrlSMLuFYE2kh7zEC+K4xeNr7kYrGBIXst+QRb0jIpO8fCsnK2UXrmJoZyRlamguf4uu07LapccLiANqZsYMmmNUzrGY6SkEMAuOggMtS9sATtS+0llJ2axjCLzavXGhQiy4WpylLsztsxb+mWQtofyDuoQswrV1CKyURaV98gCRnNh/5eRW6B/8G7ckNYC61zm/3X1lXrDQrByQAsmUx5X+4eZf+u/EXJ6QT0JacLIbxc+EmF+JsXXys0Vv6pdzxX8Bxfh3fx4wZHj52YN5P0ZLNBIVhDUWQ7xC4ctylnTxUu6vSZ8/wRApZ7XVISUyGXS4sI8I9Ffu/LrlzjKwFK7ZfilCSEn1pA0DKEmOk3vnH1d1hRYzUAAAAASUVORK5CYII=" />
           </ui:ClickImage.Image>
           <ui:ClickImage.Target>
-            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;wnd app='explorer.exe' cls='WorkerW' idx='20' /&gt;&lt;wnd cls='SysListView32' title='FolderView' /&gt;&lt;ctrl name='MyCRM' role='list item' /&gt;" WaitForReady="INTERACTIVE" />
+            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" Selector="&lt;wnd app='explorer.exe' cls='WorkerW' idx='19' /&gt;" WaitForReady="INTERACTIVE" />
           </ui:ClickImage.Target>
         </ui:ClickImage>
         <ui:Click DelayBefore="{x:Null}" DelayMS="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item  File'" sap:VirtualizedContainerService.HintSize="330,106" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="False" SimulateClick="False">
